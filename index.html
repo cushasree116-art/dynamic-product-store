@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dynamic Product Store</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>🛍️ Dynamic Product Store</h1>
+        <p>Discover amazing products at great prices.</p>
+
+        <div class="cart">
+            🛒 Cart: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="controls" aria-label="Product controls">
+
+            <label for="search">Search products</label>
+            <input
+                type="search"
+                id="search"
+                placeholder="Search by product name..."
+            >
+
+            <label for="category">Filter by category</label>
+            <select id="category">
+                <option value="all">All Categories</option>
+            </select>
+
+            <label for="sort">Sort products</label>
+            <select id="sort">
+                <option value="default">Default Order</option>
+                <option value="low-high">Price: Low to High</option>
+                <option value="high-low">Price: High to Low</option>
+                <option value="name">Name: A to Z</option>
+            >
+
+            </select>
+
+            <button id="reset">Reset Filters</button>
+
+        </section>
+
+        <p id="status" role="status" aria-live="polite">
+            Loading products...
+        </p>
+
+        <div id="error" class="error" role="alert" hidden></div>
+
+        <section
+            id="products"
+            class="products"
+            aria-label="Product list"
+        ></section>
+
+    </main>
+
+    <footer>
+        <p>Built with HTML, CSS, JavaScript ES6+ and REST API.</p>
+    </footer>
+
+</body>
+</html>
