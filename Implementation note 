@@ -1,0 +1,15 @@
+Implemented a responsive Dynamic Product Store using HTML5, CSS3, and JavaScript (ES6+). Integrated the Fake Store REST API to fetch and display product information dynamically using the Fetch API, async/await, and DOM manipulation.
+
+✨ Key Features:
+📦 Dynamic product fetching from a REST API
+🔍 Product search functionality
+🗂️ Category-based filtering
+↕️ Product sorting by price
+🛒 Interactive shopping cart
+💾 Cart data persistence using Local Storage
+⏳ Loading indicators and error handling
+📱 Responsive design for mobile and desktop devices
+
+🛠️ Technologies Used: HTML5, CSS3, JavaScript, Fetch API, REST API, DOM Manipulation, and Local Storage.
+
+The project demonstrates practical implementation of API integration, asynchronous JavaScript, dynamic DOM updates, and responsive web development. The source code and project documentation are available in the GitHub repository, and the application is deployed using GitHub Pages.
